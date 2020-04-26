@@ -8,6 +8,10 @@ body{
         width: 80%;
         margin: 0 auto;
     }
+#image:hover {
+        transition: 1s;
+        transform: rotate(360deg);
+      }     
 header, footer {
         width: 100%;
         position: fixed;        
@@ -26,3 +30,16 @@ footer{
         bottom: 0;
     }   
 
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    body {
+      background-color: light-blue;
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+  }
